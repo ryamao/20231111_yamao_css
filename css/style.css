@@ -46,57 +46,35 @@
  */
 
 .firstview {
-  width: 100%;
   padding-top: 110px;
 }
 
-.firstview__titled-image {
+.firstview__inner {
   display: flex;
-  justify-content: space-between;
-  position: relative;
 }
 
-.firstview__title-white {
+.firstview__left {
   margin-top: auto;
-  font-size: 78px;
-  font-weight: normal;
-  color: white;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  z-index: 30;
 }
 
-.firstview__title-black {
-  margin-top: auto;
-  white-space: nowrap;
-  overflow: hidden;
-}
-
-.firstview__title-black::after {
-  content: "毎日を笑顔に";
+.firstview__title {
   font-size: 78px;
   font-weight: normal;
   color: black;
-  position: relative;
-  z-index: 40;
-}
-
-.firstview__image {
-  margin-bottom: -110px;
-  position: relative;
-  z-index: 20;
-}
-
-.firstview__image img {
-  width: 760px;
-  height: auto;
 }
 
 .firstview__box {
   width: 75vw;
   height: 210px;
   background-color: #00277e;
-  position: relative;
-  z-index: 10;
+}
+
+.firstview__image {
+  margin-bottom: 100px;
+  margin-left: -25vw;
+}
+
+.firstview__image img {
+  width: 50vw;
+  height: auto;
 }
